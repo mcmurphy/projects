@@ -1,0 +1,40 @@
+#!/bin/bash
+# sourced by .bashrc
+
+#alias ls='ls --color=auto'
+#alias dir='dir --color'
+
+alias ls='ls -h --group-directories-first --color=always -F'
+alias ll='ls -l'
+alias la='ls -la'
+alias lt='tree'
+
+alias vi='vim'
+alias videos='cd /mnt/media/videos'
+alias shred='shred -u -z -n 6'
+alias sshtunnel='ssh -L 8118:localhost:8118 rusty@192.168.1.100'
+alias mkdir='mkdir -p'
+alias compress='tar -cjvf'
+alias convert='ffmpeg -sameq -i'
+alias grep='grep --color=auto'
+alias nocomment='grep -v "^#"'
+
+alias weechat='urxvt -e weechat-curses'
+alias wmiichat='urxvt -e weechat-curses irc://irc.oftc.net:6667'
+
+alias pad='leafpad'
+alias nmpc='ncmpcpp'
+alias uzbl='uzbl -u www.blackle.com'
+alias feh='feh -g 2048x1152 -F'
+alias vifm='vifm ~/ /mnt/media'
+
+alias dvdencode='h264enc -2p -p nq'
+alias eject='eject -T'
+
+alias svim='sudo vim'
+alias pacman='sudo pacman'
+alias pacorphans='sudo pacman -Rs $(pacman -Qtdq) '
+alias paclist='sudo pacman -Qqe | grep -v "$(pacman -Qmq)" > /mnt/media/backups/pkglist '
+alias shutdown='sudo shutdown -h now'
+alias reboot='sudo shutdown -r now'
+
