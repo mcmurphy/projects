@@ -1,0 +1,88 @@
+! ---- X settings ---- !
+
+Xft.dpi:                96
+Xft.antialias:          false
+Xft.hinting:            true
+Xft.hintstyle:          3
+Xft.rgba:		        true
+Xcursor.theme:          Vanilla-DMZ
+!Xcursor.theme:          Vanilla-DMZ-AA
+Xcursor.size:           22
+
+! ---- urxvt settings ---- !
+
+urxvt.title:		    urxvt
+urxvt.buffered:	        true
+!urxvt.geometry:	    88x20
+urxvt*font: 	        xft:Terminus-10:antialias=false
+!urxvt*boldFont:        xft:Terminus-10:bold:antialias=false
+urxvt*tintColor:        #7e7e7e
+urxvt*scrollBar:        False
+urxvt.saveLines:        6000
+urxvt.cursorBlink:      true
+urxvt.cursorColor:      #505050
+!urxvt*borderLess:      false
+urxvt*internalBorder:   10
+!urxvt.perl-ext-common:	default,matched,tabbed
+!urxvt*shading:	        100
+!urxvt*inheritPixmap:	true
+!urxvt.transparent:	    true
+!urxvt*fading:		    20
+
+! ---- xterm settings ---- !
+
+xterm*faceName:          Terminus
+xterm*faceSize:          8
+!xterm*geometry:          84x20
+xterm*boldMode:          false
+xterm*cutNewline:        false
+xterm*on4Clicks:         group
+xterm*on5Clicks:         page
+xterm*internalBorder:    10
+xterm*background:        #222222
+xterm*foreground:        #a7a197
+xterm*metaSendsEscape:   true
+xterm*colorBD:           #ffffff
+xterm*colorBDMode:       true
+xterm*cursorBlink:       true
+xterm*cursorColor:       #505050
+xterm*veryBoldColors:    14
+xterm*loginShell:        true
+xterm*charClass:         33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48,63:48,61:48,44:48,38:48,59:48
+xterm*jumpScroll:        true
+xterm*multiScroll:       true
+
+! ---- Colours ---- !
+
+*background:    #141414
+*foreground:    #dcdccc
+*color0:        #000000
+*color1:        #98565e
+*color2:        #66825d
+*color3:        #969176
+*color4:        #4d6585
+*color5:        #967395
+*color6:        #5f7f7b
+*color7:        #b3b3b3
+*color8:        #737373
+*color9:        #cfa3a9
+*color10:       #caf7bb
+*color11:       #fff8bc
+*color12:       #83a3be
+*color13:       #bba9cf
+*color14:       #96cccc
+*color15:       #ffffff
+
+!---- xcalc settings ---- !
+
+xcalc*font:     -*-terminus-*-*-normal-*-12-*-*-*-*-*-iso8859-*
+
+! ---- xpdf settings ---- !
+
+!xpdf*enableFreetype:      yes
+!xpdf*antialias:           yes
+!xpdf*foreground:          black
+!xpdf*background:          white
+!xpdf*urlCommand:          /usr/bin/icecat %s
+!xpdf*viKeys:              on
+
